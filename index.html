@@ -4,7 +4,7 @@
  
 <head>
  
-<title>My Page</title>
+<title>ATG</title>
  
 <meta name="viewport" content="width=device-width, initial-scale=1">
  
@@ -22,19 +22,19 @@
  
 <div data-role="header">
  
-<h1>Welcome to Kentico CMS</h1>
+<h1>ATG</h1>
  
 </div><!-- /header -->
  
 <div data-role="content">
  
-<p>Kentico CMS is one of the most powerful Customer Experience Management Systems and Content Management Systems on the planet. With over 15,000 web sites in 87 countries it is used for everything from simple web sites to complex applications. Kentico CMS is easy to install, simple to manage and reliable.</p>
+<p>Welcome page</p>
  
 </div><!-- /content -->
  
 <div data-role="footer">
  
-<h4> Get Kentico CMS</h4>
+<h4> Contact info</h4>
  
 </div><!-- /footer-->
  
@@ -43,5 +43,60 @@
 </div><!-- /page -->
  
 </body>
- 
+
+<head>
+  <title>ATG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+ 
+
+<body> 
+  <div data-role="page">
+
+<section data-role="content">
+<h3>The 2011-2012 Speakers</h3>
+<a href="#toobin">
+<h4>Jeffrey Toobin<br>October 19, 2011</h4>
+<img src="images/toobin75.jpg" alt="Jeffrey Toobin"></a>
+<!-- THE ELEMENTS FOR THE REST OF THE SPEAKERS -->
+</section>
+<footer data-role="footer"><h4>&copy; 2011</h4></footer>
+</div>
+<div data-role="page" id="toobin">
+<header data-role="header"><h1>SJV Town Hall</h1></header>
+<section data-role="content">
+<h3>The Supreme Nine:<br>Black Robed Secrets</h3>
+<img src="images/toobin_court.cnn.jpg" alt="Jeffrey Toobin">
+<p>Author of the critically acclaimed best seller, <i>The Nine:
+<!-- THE COPY CONTINUES -->
+</section>
+<footer data-role="footer"><h4>&copy; 2011</h4></footer>
+</div>
+<!-- For inline buttons, set the data-line attribute to true -->
+<a href="#" data-role="button" data-inline="true">Cancel</a>
+<a href="#" data-role="button" data-inline="true">OK</a>
+<!-- To add an icon to a button, use the data-icon attribute -->
+<a href="#" data-role="button" data-icon="delete">Delete</a>
+<a href="#" data-role="button" data-icon="home">Home</a>
+<!-- To group buttons, use a div element with the attributes that follow -->
+<div data-role="controlgroup" data-type="horizontal">
+<a href="#" data-role="button" data-icon="check">Yes</a>
+<a href="#" data-role="button" data-icon="arrow-d">No</a>
+<a href="#" data-role="button">Maybe</a>
+</div>
+<!-- To code a Back button, set the data-rel attribute to back -->
+<a href="#" data-role="button" dat-rel="back" data-icon="back">
+Back to previous page</a>
+
+
+
+
+</body>
+
+ 
+
 </html>
