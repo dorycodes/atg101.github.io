@@ -35,6 +35,23 @@
 </section>
 <footer data-role="footer"><h4>&copy; 2011</h4></footer>
 </div>
+<!-- For inline buttons, set the data-line attribute to true -->
+<a href="#" data-role="button" data-inline="true">Cancel</a>
+<a href="#" data-role="button" data-inline="true">OK</a>
+<!-- To add an icon to a button, use the data-icon attribute -->
+<a href="#" data-role="button" data-icon="delete">Delete</a>
+<a href="#" data-role="button" data-icon="home">Home</a>
+<!-- To group buttons, use a div element with the attributes that follow -->
+<div data-role="controlgroup" data-type="horizontal">
+<a href="#" data-role="button" data-icon="check">Yes</a>
+<a href="#" data-role="button" data-icon="arrow-d">No</a>
+<a href="#" data-role="button">Maybe</a>
+</div>
+<!-- To code a Back button, set the data-rel attribute to back -->
+<a href="#" data-role="button" dat-rel="back" data-icon="back">
+Back to previous page</a>
+
+
 
 
 </body>
